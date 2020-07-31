@@ -1,0 +1,44 @@
+:root{
+    --main-color:  #f24153;
+    --sec-color: #f2e041;
+}
+
+html{
+    font-family: 'Roboto', sans-serif;
+}
+
+body{
+    background-color: black;
+    overflow: hidden;
+}
+
+#side{
+    margin-left: 60%;
+    width: 300px;
+    letter-spacing: 3px;
+}
+
+#side > h1{
+    float: right;
+    line-height: 90%;
+    color: whitesmoke;
+    text-align: right;
+    width: 300px;
+    font-size: 70px;
+    margin-top: 170px;
+    margin-right: 5%;
+    margin-bottom: 10px;
+}
+
+#side > p{
+    color: whitesmoke;
+    float: right;
+    width: 300px;
+    text-align: right;
+}
+
+#foto{
+    position: absolute;
+    height: 100%;
+    filter: grayscale(100%);
+}
