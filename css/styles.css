@@ -3,6 +3,11 @@
     --sec-color: #f2e041;
 }
 
+::selection{
+    color: black;
+    background-color: white;
+}
+
 html{
     font-family: 'Roboto', sans-serif;
 }
@@ -14,6 +19,7 @@ body{
 
 #side{
     margin-left: 60%;
+    margin-top: 140px;
     width: 300px;
     letter-spacing: 3px;
 }
@@ -25,10 +31,12 @@ body{
     text-align: right;
     width: 300px;
     font-size: 70px;
-    margin-top: 170px;
+    /* margin-top: 170px; */
     margin-right: 5%;
     margin-bottom: 10px;
 }
+
+
 
 #side > p{
     color: whitesmoke;
@@ -41,4 +49,21 @@ body{
     position: absolute;
     height: 100%;
     filter: grayscale(100%);
+}
+
+#socialmedia{
+    text-align: center;
+}
+
+#socialmedia > a img{
+    transition: .3s;
+    margin-top: 10px;
+    padding-left: 10%;
+    filter: invert(1);
+    height: 27px;
+}
+
+#socialmedia > a img:hover{
+    transition: .3s;
+    height: 30px;
 }
