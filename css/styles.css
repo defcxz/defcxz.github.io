@@ -17,9 +17,29 @@ body{
     overflow: hidden;
 }
 
+#espacioenblanco{
+    top: 0;
+    background: linear-gradient(to right, #cc672d 0%, #ffec45 50%, #cc672d 100%);
+    background-size: 10000px 100%;
+    animation: bg 10s linear infinite;
+    position: absolute;
+    margin: auto;
+    height: 100%;
+    width: 55%;
+}
+
+@keyframes bg {
+    0% {
+        background-position-x: 0;
+    }   
+    100% {
+        background-position-x: 10000px;
+    }
+}
+
 #side{
     margin-left: 60%;
-    margin-top: 140px;
+    margin-top: 150px;
     width: 300px;
     letter-spacing: 3px;
 }
@@ -75,14 +95,18 @@ body{
         animation: bg 10s linear infinite;
     }
 
+    #espacioenblanco{
+        opacity: 0;
+    }
+
     @keyframes bg {
         0% {
             background-position-x: 0;
-            }   
+        }   
         100% {
             background-position-x: 10000px;
-            }
         }
+    }
     
     #side{
         margin-right: auto;
