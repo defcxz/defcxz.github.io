@@ -67,3 +67,30 @@ body{
     transition: .3s;
     height: 30px;
 }
+
+@media screen and (max-width: 768px) {
+    body {
+        background: linear-gradient(to right, #252525 0%, #bd5d1e 50%, #252525 100%);
+        background-size: 10000px 100%;
+        animation: bg 10s linear infinite;
+    }
+
+    @keyframes bg {
+        0% {
+            background-position-x: 0;
+            }   
+        100% {
+            background-position-x: 10000px;
+            }
+        }
+    
+    #side{
+        margin-right: auto;
+        margin-left: auto;
+    }
+
+    #socialmedia{
+        padding-left: 0%;
+        margin-top: 20px;
+    }
+}
