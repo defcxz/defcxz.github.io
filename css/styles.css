@@ -105,6 +105,7 @@ body{
         background: linear-gradient(to right, var(--main-color) 0%, var(--sec-color) 50%, var(--main-color) 100%);
         background-size: 10000px 100%;
         animation: bg 10s linear infinite;
+        overflow: scroll;
     }
 
     #espacioenblanco{
