@@ -93,12 +93,16 @@ body{
 }
 
 @media screen and (max-width: 768px) {
+
     .mobilesocialmedia {
         display: grid;
         grid-template-columns: 1fr;
         grid-template-rows: repeat(4, 1fr);
         grid-column-gap: 2px;
         grid-row-gap: 30px;
+        filter: invert(1);
+        visibility: visible;
+        margin-bottom: 120px;
     }   
 
     body {
@@ -149,12 +153,6 @@ body{
         padding-left: 0%;
         margin-top: 20px;
     }
-
-    .mobilesocialmedia{
-        filter: invert(1);
-        visibility: visible;
-    }
-
 
     .mobilesocialmedia > a img{
         margin-left: 15px;
