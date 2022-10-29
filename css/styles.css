@@ -9,23 +9,29 @@
 }
 
 html{
-    font-family: 'Roboto', sans-serif;
+    font-family: 'Inconsolata', monospace;
 }
 
-body{
-    background-color: black;
-    overflow: hidden;
+.principal{
+    min-height: 100vh;
 }
 
-#espacioenblanco{
-    top: 0;
+img{
+    max-height: 100vh;
+}
+
+.me{
+    width: 70%;
+}
+
+#gradient{
     background: linear-gradient(to right, var(--main-color) 0%, var(--sec-color) 50%, var(--main-color) 100%);
     background-size: 10000px 100%;
     animation: bg 10s linear infinite;
     position: absolute;
     margin: auto;
-    height: 100%;
-    width: 55%;
+    height: 100vh;
+    width: 60%;
 }
 
 @keyframes bg {
@@ -37,160 +43,76 @@ body{
     }
 }
 
-#side{
-    margin-left: 60%;
-    margin-top: 150px;
-    width: 300px;
+.info{
     letter-spacing: 3px;
 }
 
-#side > h1{
-    float: right;
-    line-height: 90%;
+.info > h1{
+        /* float: right; */
+    /* line-height: 90%; */
     color: whitesmoke;
-    text-align: right;
-    width: 300px;
-    font-size: 70px;
-    margin-top: 30%;
-    margin-right: 5%;
-    margin-bottom: 10px;
+    /* text-align: right; */
+    /* width: 300px; */
+    font-size: 110px;
+    /* margin-top: 30%; */
+    /* margin-right: 5%; */
+    /* margin-bottom: 10px; */
 }
 
-
-
-#side > p{
-    color: whitesmoke;
-    float: right;
-    width: 300px;
-    text-align: right;
+.info > p{
+    color: white;
 }
-
-#foto{
-    position: absolute;
-    height: 100%;
-    filter: grayscale(100%);
-}
-
-#socialmedia{
-    text-align: center;
-}
-
-#socialmedia > a img{
+.socialmedia > a img{
     transition: .3s;
     margin-top: 10px;
-    padding-left: 10%;
     filter: invert(1);
-    height: 27px;
+    height: 50px;
 }
 
 .mobilesocialmedia{
-    visibility: hidden;
+    display: none;
 }
 
-#socialmedia > a img:hover{
+.socialmedia > a img:hover{
     transition: .3s;
-    height: 30px;
+    
+    
 }
 
 @media screen and (max-width: 768px) {
-
+/* 
     .mobilesocialmedia {
-        display: grid;
-        grid-template-columns: 1fr;
-        grid-template-rows: repeat(4, 1fr);
-        grid-column-gap: 2px;
-        grid-row-gap: 30px;
-        filter: invert(1);
-        visibility: visible;
-        margin-bottom: 120px;
+        color: #ffffff !important;
+        text-align: center;
     }   
-
-    body {
-        background: linear-gradient(to right, var(--main-color) 0%, var(--sec-color) 50%, var(--main-color) 100%);
-        background-size: 10000px 100%;
-        animation: bg 10s linear infinite;
-        overflow: scroll;
-    }
-
-    #espacioenblanco{
-        opacity: 0;
-    }
-
-    @keyframes bg {
-        0% {
-            background-position-x: 0;
-        }   
-        100% {
-            background-position-x: 10000px;
-        }
-    }
     
-    #side{
-        margin-top: 0;
+    .info{
         margin-right: auto;
         margin-left: auto;
     }
 
-    #side > h1{
+    .info > h1{
         margin-bottom: 0%;
         position: relative;
         text-align: center;
-        /* margin-top: 40%; */
-        letter-spacing: 9px;
         line-height: 70px;
         margin-left: auto;
         margin-right: auto;
     }
 
-    #side > p{
-        margin-top: 25px;
-        /* visibility: hidden; */
-        text-align: justify;
-    }
-
-    #socialmedia{
-        visibility: hidden;
-        padding-left: 0%;
-        margin-top: 20px;
+    .socialmedia{
+        display: none;
     }
 
     .mobilesocialmedia > a img{
-        margin-left: 15px;
         margin-top: 5px;
         height: 30px;
     }
 
     .mobilesocialmedia > #button1, #button2, #button3, #button4{
-        color: black;
-        border-radius: 0px 0px 0px 0px;
-        -moz-border-radius: 0px 0px 0px 0px;
-        -webkit-border-radius: 0px 0px 0px 0px;
-        border: 2px solid #000000;
-
-    }
-
-    .mobilesocialmedia > #button1 > strong{
-        position: absolute;
-        margin-top: 11px;
-        margin-left: 66px;
-    }
-
-    .mobilesocialmedia > #button2 > strong{
-        position: absolute;
-        margin-top: 11px;
-        margin-left: 47px;
-    }
-
-    .mobilesocialmedia > #button3 > strong{
-        position: absolute;
-        margin-top: 11px;
-        margin-left: 53px;
-    }
-
-    .mobilesocialmedia > #button4 > strong{
-        position: absolute;
-        margin-top: 11px;
-        margin-left: 12px;
-    }
-    
+       color: #ffffff;
+       text-decoration: none;
+       border: 2px solid white;
+       min-height: 50px;
+    } */
 }
