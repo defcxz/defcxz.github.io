@@ -115,4 +115,19 @@ img{
        border: 2px solid white;
        min-height: 50px;
     } */
+    .me{
+        width: 290vh;
+    }
+
+    .info > p{
+        font-size: 50px;
+    }
+
+    .socialmedia > a img{
+        display: none;
+    }
+
+    hr{
+        display: none;
+    }
 }
