@@ -116,7 +116,7 @@ img{
        min-height: 50px;
     } */
     .me{
-        width: 290vh;
+        width: 100%;
     }
 
     .info > p{
