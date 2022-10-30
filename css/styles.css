@@ -69,6 +69,12 @@ img{
     height: 50px;
 }
 
+.socialmedia a{
+    text-decoration: none;
+    color: white;
+    font-weight: 600;
+}
+
 .mobilesocialmedia{
     display: none;
 }
@@ -80,54 +86,38 @@ img{
 }
 
 @media screen and (max-width: 768px) {
-/* 
-    .mobilesocialmedia {
-        color: #ffffff !important;
-        text-align: center;
-    }   
-    
+
     /* body min-height just for testing */
     body{
         /* min-height: 1000px; */
     }
 
-    .info > h1{
-        margin-bottom: 0%;
-        position: relative;
-        text-align: center;
-        line-height: 70px;
-        margin-left: auto;
-        margin-right: auto;
-    }
-
-    .socialmedia{
-        display: none;
-    }
-
-    .mobilesocialmedia > a img{
-        margin-top: 5px;
-        height: 30px;
-    }
-
-    .mobilesocialmedia > #button1, #button2, #button3, #button4{
-       color: #ffffff;
-       text-decoration: none;
-       border: 2px solid white;
-       min-height: 50px;
-    } */
     .me{
+        margin-top: 30px;
         width: 100%;
     }
 
-    .info > p{
-        font-size: 50px;
+    .row{
+        height: 100px;
     }
 
-    .socialmedia > a img{
-        display: none;
+    .info{
+        margin-top: 60px !important;
+    }
+
+    .info p{
+        font-size: 20px;
     }
 
     hr{
+        display: none;
+    }
+
+    .socialmedia a img{
+        height: 30px;
+    }
+
+    .placeholder{
         display: none;
     }
 }
