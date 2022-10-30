@@ -86,9 +86,9 @@ img{
         text-align: center;
     }   
     
-    .info{
-        margin-right: auto;
-        margin-left: auto;
+    /* body min-height just for testing */
+    body{
+        /* min-height: 1000px; */
     }
 
     .info > h1{
