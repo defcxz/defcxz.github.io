@@ -105,6 +105,10 @@ img{
         margin-top: 60px !important;
     }
 
+    .info h1{
+        font-size: 50px;
+    }
+    
     .info p{
         font-size: 20px;
     }
